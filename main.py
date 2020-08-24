@@ -36,7 +36,7 @@ def calc(op, high, low, close):
     return close[-1] - op[0]
 
 def main():
-    data = pd.read_excel("d:/Programming/Python/Projects/Stock-Screener/NIFTY25JUN2010000PE.xlsx", parse_dates=[['Date', 'Time']]) 
+    data = pd.read_excel("NIFTY25JUN2010000PE.xlsx", parse_dates=[['Date', 'Time']]) 
 
     #convert df index to DataTimeIndex
     data.index = pd.to_datetime(data['Date_Time'] )
