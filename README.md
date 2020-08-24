@@ -10,3 +10,9 @@ The strategy workflow is as follows:-
       - Exit if the high of previous candle is broken
       
 Compute the profit/loss(entry price – exit price) from this strategy and upload the code on github.
+
+## How to Run?
+  - Clone the Repository
+  - Install Python 3.x
+  - Install requirements.txt by typing "pip install -r requirements.txt" into Command Prompt in working Directory.
+  - Run the file main.py.
